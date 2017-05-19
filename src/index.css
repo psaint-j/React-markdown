@@ -1,13 +1,21 @@
 body{
   margin: 0;
   padding: 0;
+  background-image: url('https://static.pexels.com/photos/174673/pexels-photo-174673.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Lora;
 }
 
 .box-container{
   display: flex;
-  height: 100vh;
+  height: 70vh;
 
   /*flex-direction: column;*/
+}
+
+.ui.container{
+  padding-top: 15vh;
 }
 
 .box{
@@ -16,7 +24,7 @@ body{
 }
 
 .red{
-  /*background-color: red;*/
+  color: white;
 }
 .box.ui.blue.message{
   margin: 0;
@@ -29,7 +37,7 @@ body{
 }
 textarea{
   outline: none;
-  background-color:#DFF0FF ;
+  background-color: transparent;
   box-shadow: 0px 0px 0px 1px #2185D0 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
   padding: 1em 1.5em;
   border:none;
